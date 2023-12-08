@@ -1,0 +1,16 @@
+/* .banner-home{
+    height:"600px";
+     width:"100%"; backgroundImage:`url(${base_url_img}${allMovies.backdrop_path})`; backgroundSize:"cover" backgroundAttachment:"fixed"
+} */
+.banner-content{
+    padding-left: 50px;
+    padding-top: 400px;
+}
+.banner-content>h1{
+    font-size: 35px;
+}
+.banner-content>h2{
+    font-size: 15px;
+    margin-top: 20px;
+    width: 45rem;
+}

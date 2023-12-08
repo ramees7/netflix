@@ -1,0 +1,33 @@
+
+.row{
+    padding: 20px 30px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.movies-row{
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.movie{
+    width: 300px;
+    max-height: 150px;
+    margin-right: 25px;
+    transition: transform 400ms;
+}
+.movie:hover{
+    transform: scale(1.06);
+}
+/* .movie-div{
+    max-height: 150px;
+} */
+.movie-name{
+    padding-top: 10px;
+}
+/* .btn{
+   
+} */
